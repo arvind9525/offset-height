@@ -1,4 +1,5 @@
 // Need to add <script>  </script> if you are add this code in body
+<script>
 jQuery(window).scroll(function() {
  
 var current_top = $(document).scrollTop();
@@ -16,3 +17,4 @@ if (current_top >= formBottom && current_top <= formSection) {
 	
 }
 });
+</script>
